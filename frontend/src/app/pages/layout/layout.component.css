@@ -1,0 +1,158 @@
+
+ 
+        .imagen-con-efecto {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px; 
+        }
+
+        .imagen-con-efecto img {
+            transition: transform 0.3s ease; 
+        }
+
+        .imagen-con-efecto::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6; 
+            transition: opacity 0.5s ease;
+        }
+
+        .imagen-con-efecto:hover img {
+            transform: scale(1.1); 
+        }
+       
+        #nosotros {
+            text-align: left; 
+            padding: 50px 0; 
+        }
+        #catalogo {
+            background-color:#0E0F10;
+            padding-top: 50px; 
+            padding-bottom: 50px; 
+        }
+        .navbar {
+            background-color: transparent !important;
+        }       
+        .navbar.solid {
+            background-color: #111111 !important;
+        }
+
+
+        /* FONTS  */
+
+     
+            /* LETRAS */
+            h1{
+                font-family:Fonts/Oxygen-Regular ;
+                font-weight: 600;
+                text-shadow: 4px 3px 3px #000;
+                font-size: 70px;
+            }
+            h2{
+                font-family:Fonts/Oxygen-Bold ;
+                text-shadow: 4px 3px 3px #000;
+
+            }
+            h3{
+                font-family:Fonts/Oxygen-Bold ;
+                text-shadow: 4px 3px 4px #0e0000;
+               font-size: 30px;
+               font-weight: bold;
+            }
+            h4{
+                font-family:Fonts/Oxygen-Regular ;
+                text-shadow: 4px 3px 3px #000;
+            }
+            h5{
+                font-family:Fonts/Oxygen-Bold ;
+                font-size: 40px;
+                color: rgb(255, 254, 254);
+                font-weight: 90px;
+                text-shadow: 1px 3px 2px #0e000059;
+                
+            }
+            h6{
+                font-family:Fonts/Oxygen-Light ;
+
+                
+            }
+            p{
+                font-family:JosefinSans-uno ;
+                text-shadow: 1px 3px 2px #0e000029;
+                
+            }
+             #text3{
+                    font-size: 50px;
+                    padding-top: 30%;
+                    
+                }
+
+             /* cajas de las letras del carrusel  */
+             .into  {
+                width: 30%;
+                height: 80%;
+                overflow: hidden;
+
+             }
+
+             
+     #inputAddress , #inputAddress2 {
+        width:60% ;
+     }  
+     #inputState  {
+        width:25% ;
+        padding-bottom: 6px;
+     }    
+     .btnr{
+        background-color: rgb(9, 11, 35);
+        font-family:Fonts/Oxygen-tres ;
+        border-color: #ffffff;
+     }
+     .btnr:hover{
+        background-color: #11094e;
+     }
+     #colo-ico , #btFooter{
+        color: #ffffff;
+     }
+     #btFooter{
+        background-color: #11094e;
+     }
+     #btFooter:hover{
+        color: #000;
+        background-color: white;
+     }
+     .texfooter{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .texfooter:hover{
+        color: #7c7c7c;
+    }
+    .bi{
+        background-color: #91919174;
+    }
+
+   .bpregunta{
+    background-color: #131316;
+
+   }
+   .navbar-nav .nav-link {
+    color: rgb(242, 247, 242); 
+   }
+
+   .dropdown-menu .dropdown-item {
+    color: blue; 
+   }
+
+   label{
+    color: white;
+   }
+   input{
+    background-color: #7c7c7c;
+
+   }
+
